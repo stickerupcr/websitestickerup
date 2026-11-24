@@ -9,17 +9,17 @@ const cut = (c: string) => ({ "--cut": c }) as React.CSSProperties;
 function Header() {
   return (
     <header className="sticky top-0 z-40 bg-ink/95 backdrop-blur-sm">
-      <div className="wrap flex h-[4.5rem] items-center justify-between gap-6">
+      <div className="wrap flex h-[4.5rem] items-center justify-between gap-4 sm:gap-6">
         <a href="#inicio" aria-label="StickerUp by Publistudio, inicio" className="shrink-0">
-          <Image src="/brand/stickerup-logo.webp" alt="StickerUp by Publistudio" width={1190} height={425} priority className="h-16 w-auto" />
+          <Image src="/brand/stickerup-logo.webp" alt="StickerUp by Publistudio" width={1190} height={425} priority className="h-11 w-auto min-[400px]:h-12 sm:h-14 lg:h-16" />
         </a>
-        <nav aria-label="Principal" className="hidden items-center gap-9 text-base font-normal md:flex">
+        <nav aria-label="Principal" className="hidden items-center gap-9 whitespace-nowrap text-base font-normal lg:flex">
           <a href="#productos" className="hover:text-amber">Productos</a>
           <a href="#pedido" className="hover:text-amber">Armá tu pedido</a>
           <a href="#como-pedir" className="hover:text-amber">Cómo pedir</a>
           <a href="#preguntas" className="hover:text-amber">Preguntas</a>
         </nav>
-        <a href={HELLO} target="_blank" rel="noopener" className="btn btn-amber !min-h-11 !px-5 !py-2.5 text-sm sm:text-base">WhatsApp</a>
+        <a href={HELLO} target="_blank" rel="noopener" className="btn btn-amber !min-h-11 !px-4 !py-2.5 text-sm sm:!px-5 sm:text-base">WhatsApp</a>
       </div>
     </header>
   );
