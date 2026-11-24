@@ -1,0 +1,371 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-11-24T18:18:53Z",
+  "title": "Design System: StickerUp by Publistudio",
+  "extensions": {
+    "colorMeta": {
+      "amber": {
+        "role": "primary",
+        "displayName": "Sticker Amber",
+        "canonical": "#FFB806",
+        "tonalRamp": [
+          "#0c0c0c",
+          "#513d0a",
+          "#976e09",
+          "#dc9f07",
+          "#fec023",
+          "#fdd05e",
+          "#fce099",
+          "#fbf0d4"
+        ]
+      },
+      "amber-deep": {
+        "role": "secondary",
+        "displayName": "Deep Amber",
+        "canonical": "#E19F2A",
+        "tonalRamp": [
+          "#0c0c0c",
+          "#493615",
+          "#86601d",
+          "#c38a26",
+          "#e4aa43",
+          "#eac075",
+          "#f0d6a7",
+          "#f6ecd9"
+        ]
+      },
+      "ink": {
+        "role": "neutral",
+        "displayName": "Cut-Vinyl Black",
+        "canonical": "#000000",
+        "tonalRamp": [
+          "#0c0c0c",
+          "#090909",
+          "#050505",
+          "#020202",
+          "#1e1e1e",
+          "#5b5b5a",
+          "#989897",
+          "#d4d4d3"
+        ]
+      },
+      "night": {
+        "role": "neutral",
+        "displayName": "Night Panel",
+        "canonical": "#111111",
+        "tonalRamp": [
+          "#0c0c0c",
+          "#0d0d0d",
+          "#0f0f0f",
+          "#101010",
+          "#2d2d2d",
+          "#666665",
+          "#9e9e9d",
+          "#d7d7d5"
+        ]
+      },
+      "night-line": {
+        "role": "neutral",
+        "displayName": "Night Hairline",
+        "canonical": "#2A2A2A",
+        "tonalRamp": [
+          "#0c0c0c",
+          "#151515",
+          "#1d1d1d",
+          "#262626",
+          "#434343",
+          "#767675",
+          "#a8a8a7",
+          "#dbdbd9"
+        ]
+      },
+      "paper": {
+        "role": "neutral",
+        "displayName": "Backing Paper White",
+        "canonical": "#FFFFFF",
+        "tonalRamp": [
+          "#0c0c0c",
+          "#515151",
+          "#979797",
+          "#dcdcdc",
+          "#fefefe",
+          "#fdfdfc",
+          "#fcfcfb",
+          "#fbfbf9"
+        ]
+      },
+      "mist": {
+        "role": "neutral",
+        "displayName": "Mist Sheet",
+        "canonical": "#F5F4F1",
+        "tonalRamp": [
+          "#0c0c0c",
+          "#4f4e4d",
+          "#91918f",
+          "#d4d3d0",
+          "#f6f5f2",
+          "#f7f6f4",
+          "#f8f8f5",
+          "#f9f9f7"
+        ]
+      },
+      "line": {
+        "role": "neutral",
+        "displayName": "Sheet Line",
+        "canonical": "#E2E0DA",
+        "tonalRamp": [
+          "#0c0c0c",
+          "#494947",
+          "#868582",
+          "#c3c2bd",
+          "#e5e3de",
+          "#ebe9e5",
+          "#f1f0ec",
+          "#f6f6f4"
+        ]
+      },
+      "soft-dark": {
+        "role": "neutral",
+        "displayName": "Soft Graphite",
+        "canonical": "#4A4A4A",
+        "tonalRamp": [
+          "#0c0c0c",
+          "#1e1e1e",
+          "#2f2f2f",
+          "#414141",
+          "#5f5f5f",
+          "#8a8a89",
+          "#b5b5b4",
+          "#e0e0de"
+        ]
+      },
+      "soft-light": {
+        "role": "neutral",
+        "displayName": "Soft Silver",
+        "canonical": "#BDBDBD",
+        "tonalRamp": [
+          "#0c0c0c",
+          "#3f3f3f",
+          "#717171",
+          "#a4a4a4",
+          "#c4c4c4",
+          "#d3d3d2",
+          "#e2e2e1",
+          "#f1f1ef"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Display",
+        "purpose": "Hero and closing headline (3.4rem to 6rem); Rubik 900 italic uppercase."
+      },
+      "headline": {
+        "displayName": "Section Headline",
+        "purpose": "Every h2 (2.6rem to 4.5rem)."
+      },
+      "title": {
+        "displayName": "Card Title",
+        "purpose": "Product and finish names (h3, 1.875rem to 3.75rem)."
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "Hanken Grotesk Light 17px running text, lead paragraphs at 1.25 to 1.5rem."
+      },
+      "label": {
+        "displayName": "Button Label",
+        "purpose": "Rubik 800 italic uppercase on every button and chip."
+      }
+    },
+    "shadows": [
+      {
+        "name": "die-cut-ring-amber",
+        "value": "0 0 0 4px #ffffff, 6px 10px 18px rgba(0,0,0,.45)",
+        "purpose": "Amber button: white die-cut ring plus soft offset shadow."
+      },
+      {
+        "name": "die-cut-ring-ink",
+        "value": "0 0 0 4px #ffffff, 6px 10px 18px rgba(0,0,0,.35)",
+        "purpose": "Ink button on light cards."
+      },
+      {
+        "name": "sticker-drop",
+        "value": "drop-shadow(6px 10px 12px rgba(0,0,0,.5))",
+        "purpose": "Every SVG sticker."
+      },
+      {
+        "name": "chip-ring",
+        "value": "0 0 0 3px #ffffff, 4px 6px 10px rgba(0,0,0,.45)",
+        "purpose": "Order sentence chips and inputs."
+      },
+      {
+        "name": "step-badge",
+        "value": "0 0 0 3px #ffffff, 4px 6px 10px rgba(0,0,0,.3)",
+        "purpose": "Numbered black circles on the amber steps section."
+      },
+      {
+        "name": "finish-swatch",
+        "value": "0 0 0 5px #000000, 6px 10px 16px rgba(0,0,0,.25)",
+        "purpose": "Round finish swatches on white; black ring instead of white."
+      },
+      {
+        "name": "focus-double-ring",
+        "value": "outline: 3px solid #000; outline-offset: 2px; box-shadow: 0 0 0 6px #ffb806",
+        "purpose": "Keyboard focus; legible on black, white and amber."
+      }
+    ],
+    "motion": [
+      {
+        "name": "ease-sticker",
+        "value": "cubic-bezier(.16,1,.3,1)",
+        "purpose": "Button hover lift (translate -2px,-3px, rotate -1deg, .25s) and sticker landing (.9s)."
+      },
+      {
+        "name": "stick-on-load",
+        "value": "stick .9s cubic-bezier(.16,1,.3,1) both, staggered .05s to .54s",
+        "purpose": "Hero stickers press onto the page once, scaling from 1.14 with an offset rotation."
+      },
+      {
+        "name": "tape-scroll",
+        "value": "translateX(-50%) 38s linear infinite",
+        "purpose": "Product tape marquee; pauses on hover; disabled under prefers-reduced-motion."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "md",
+        "value": "768px"
+      },
+      {
+        "name": "lg",
+        "value": "1024px"
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Amber Sticker Button",
+      "kind": "button",
+      "refersTo": "button-amber",
+      "description": "Primary action: amber pill with white die-cut ring and soft offset shadow. Opens WhatsApp.",
+      "html": "<a class=\"ds-btn ds-btn-amber\" href=\"#\">Pedir por WhatsApp</a>",
+      "css": ".ds-btn{display:inline-flex;align-items:center;justify-content:center;min-height:3.25rem;padding:.85rem 1.9rem;border-radius:999px;font-family:var(--font-display,'Rubik',sans-serif);font-style:italic;font-weight:800;text-transform:uppercase;letter-spacing:-.01em;font-size:1.05rem;line-height:1;text-decoration:none;cursor:pointer;border:0;transition:transform .25s cubic-bezier(.16,1,.3,1)}.ds-btn-amber{background:#FFB806;color:#000;box-shadow:0 0 0 4px #fff,6px 10px 18px rgba(0,0,0,.45)}.ds-btn:hover{transform:translate(-2px,-3px) rotate(-1deg)}.ds-btn:active{transform:translate(0,1px)}.ds-btn:focus-visible{outline:3px solid #000;outline-offset:2px;box-shadow:0 0 0 6px #FFB806}"
+    },
+    {
+      "name": "Ink Sticker Button",
+      "kind": "button",
+      "refersTo": "button-ink",
+      "description": "Secondary action on light cards: black pill with the same white die-cut ring.",
+      "html": "<a class=\"ds-btn ds-btn-ink\" href=\"#\">Pedir</a>",
+      "css": ".ds-btn{display:inline-flex;align-items:center;justify-content:center;min-height:2.75rem;padding:.65rem 1.5rem;border-radius:999px;font-family:var(--font-display,'Rubik',sans-serif);font-style:italic;font-weight:800;text-transform:uppercase;letter-spacing:-.01em;font-size:1rem;line-height:1;text-decoration:none;cursor:pointer;transition:transform .25s cubic-bezier(.16,1,.3,1)}.ds-btn-ink{background:#000;color:#fff;box-shadow:0 0 0 4px #fff,6px 10px 18px rgba(0,0,0,.35)}.ds-btn:hover{transform:translate(-2px,-3px) rotate(-1deg)}.ds-btn:focus-visible{outline:3px solid #000;outline-offset:2px;box-shadow:0 0 0 6px #FFB806}"
+    },
+    {
+      "name": "Ghost Outline Button",
+      "kind": "button",
+      "refersTo": "button-ghost",
+      "description": "Tertiary action: transparent pill with a 3px currentColor inset outline.",
+      "html": "<a class=\"ds-btn-ghost\" href=\"#\">Ver productos</a>",
+      "css": ".ds-btn-ghost{display:inline-flex;align-items:center;justify-content:center;min-height:3.25rem;padding:.85rem 1.9rem;border-radius:999px;background:transparent;color:#fff;box-shadow:inset 0 0 0 3px currentColor;font-family:var(--font-display,'Rubik',sans-serif);font-style:italic;font-weight:800;text-transform:uppercase;letter-spacing:-.01em;font-size:1.05rem;line-height:1;text-decoration:none;transition:transform .25s cubic-bezier(.16,1,.3,1)}.ds-btn-ghost:hover{transform:translate(-2px,-3px) rotate(-1deg)}.ds-btn-ghost:focus-visible{outline:3px solid #000;outline-offset:2px;box-shadow:0 0 0 6px #FFB806}"
+    },
+    {
+      "name": "Product Card",
+      "kind": "card",
+      "refersTo": "card-product",
+      "description": "22px rounded tile on the light section; flat color tone (ink, amber, mist, deep amber, paper with black inset ring) with a rotated sticker in the corner.",
+      "html": "<article class=\"ds-card\"><svg class=\"ds-card-art\" viewBox=\"0 0 200 200\" aria-hidden=\"true\" style=\"overflow:visible\"><path d=\"M112 6 L36 112 H86 L66 194 L166 78 H114 Z\" fill=\"#fff\" stroke=\"#fff\" stroke-width=\"24\" stroke-linejoin=\"round\"/><path d=\"M112 6 L36 112 H86 L66 194 L166 78 H114 Z\" fill=\"#FFB806\" stroke=\"#000\" stroke-width=\"5\" stroke-linejoin=\"round\"/></svg><div style=\"height:9rem\"></div><h3>Troquelados</h3><p>Con la forma exacta de tu diseño.</p><a class=\"ds-card-btn\" href=\"#\">Pedir</a></article>",
+      "css": ".ds-card{position:relative;overflow:hidden;border-radius:22px;padding:2rem;background:#000;color:#fff;font-family:var(--font-body,'Hanken Grotesk',sans-serif);font-weight:300;max-width:26rem}.ds-card-art{position:absolute;right:1.25rem;top:1.25rem;width:36%;max-width:8.5rem;transform:rotate(10deg);filter:drop-shadow(6px 10px 12px rgba(0,0,0,.5))}.ds-card h3{margin:0;font-family:var(--font-display,'Rubik',sans-serif);font-style:italic;font-weight:900;text-transform:uppercase;letter-spacing:-.03em;line-height:.95;font-size:2.25rem}.ds-card p{margin:.75rem 0 0;color:#bdbdbd;line-height:1.6}.ds-card-btn{display:inline-flex;align-items:center;margin-top:1.5rem;min-height:2.75rem;padding:.65rem 1.5rem;border-radius:999px;background:#FFB806;color:#000;font-family:var(--font-display,'Rubik',sans-serif);font-style:italic;font-weight:800;text-transform:uppercase;text-decoration:none;box-shadow:0 0 0 4px #fff,6px 10px 18px rgba(0,0,0,.45)}"
+    },
+    {
+      "name": "Order Chip",
+      "kind": "chip",
+      "refersTo": "chip-order",
+      "description": "Native select shaped as a sticker chip inside the order sentence; amber or white, white die-cut ring.",
+      "html": "<span class=\"ds-chip\">100 <svg viewBox=\"0 0 12 8\" width=\"12\" height=\"8\" aria-hidden=\"true\"><path d=\"M1 1.5 6 6.5l5-5\" fill=\"none\" stroke=\"#000\" stroke-width=\"2.4\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg></span>",
+      "css": ".ds-chip{display:inline-flex;align-items:center;gap:.6rem;border-radius:16px;padding:.25rem 1rem;background:#FFB806;color:#000;font-family:var(--font-display,'Rubik',sans-serif);font-style:italic;font-weight:800;font-size:1.75rem;line-height:1.25;box-shadow:0 0 0 3px #fff,4px 6px 10px rgba(0,0,0,.45)}"
+    },
+    {
+      "name": "Message Bubble",
+      "kind": "card",
+      "refersTo": "panel-message",
+      "description": "Night panel with one tight bottom-left corner (26/26/26/6px) and a hairline ring; shows the prefilled WhatsApp text.",
+      "html": "<div class=\"ds-bubble\"><p>Hola, Publistudio. Quiero 100 troquelados de 5 cm en acabado mate.</p></div>",
+      "css": ".ds-bubble{border-radius:26px 26px 26px 6px;background:#111;color:#fff;padding:2rem 1.5rem 1.5rem;box-shadow:0 0 0 3px #2a2a2a;font-family:var(--font-body,'Hanken Grotesk',sans-serif);font-weight:400;font-size:1.125rem;line-height:1.4;max-width:24rem}.ds-bubble p{margin:0}"
+    },
+    {
+      "name": "Die-Cut Edge",
+      "kind": "custom",
+      "refersTo": "cut-edge",
+      "description": "Signature section divider: a 20px strip of 40px triangle teeth in the next section's color, masked with an inline SVG.",
+      "html": "<div class=\"ds-cut\"><div class=\"ds-cut-top\">Negro</div><div class=\"ds-cut-bottom\">Blanco</div></div>",
+      "css": ".ds-cut{font-family:var(--font-display,'Rubik',sans-serif);font-style:italic;font-weight:900;text-transform:uppercase}.ds-cut-top{position:relative;background:#000;color:#fff;padding:2rem}.ds-cut-top::after{content:'';position:absolute;left:0;right:0;bottom:-19px;height:20px;background:#000;-webkit-mask:url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='40' height='20'%3E%3Cpolygon points='0,0 40,0 20,20'/%3E%3C/svg%3E\") repeat-x left top/40px 20px;mask:url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='40' height='20'%3E%3Cpolygon points='0,0 40,0 20,20'/%3E%3C/svg%3E\") repeat-x left top/40px 20px}.ds-cut-bottom{background:#fff;color:#000;padding:2.5rem 2rem 2rem}"
+    },
+    {
+      "name": "Bolt Sticker",
+      "kind": "custom",
+      "refersTo": "sticker-bolt",
+      "description": "Die-cut lightning-bolt sticker: thick white border, amber fill with black keyline, soft offset drop shadow.",
+      "html": "<svg class=\"ds-bolt\" viewBox=\"0 0 200 200\" width=\"140\" aria-hidden=\"true\"><path d=\"M112 6 L36 112 H86 L66 194 L166 78 H114 Z\" fill=\"#fff\" stroke=\"#fff\" stroke-width=\"24\" stroke-linejoin=\"round\"/><path d=\"M112 6 L36 112 H86 L66 194 L166 78 H114 Z\" fill=\"#FFB806\" stroke=\"#000\" stroke-width=\"5\" stroke-linejoin=\"round\"/><path d=\"M108 30 L64 100\" stroke=\"#fff\" stroke-opacity=\".55\" stroke-width=\"6\" stroke-linecap=\"round\"/></svg>",
+      "css": ".ds-bolt{overflow:visible;transform:rotate(-9deg);filter:drop-shadow(6px 10px 12px rgba(0,0,0,.5))}"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Die-Cut Counter",
+    "overview": "The page is the front counter of a sticker shop that is also a signage studio. Black is the counter, white is the backing paper, amber is the vinyl. Everything that matters is either a real sticker (white border, soft offset shadow, slightly rotated) or a surface cut like one: sections meet along a row of triangular die-cut teeth, cards are 22px tiles, buttons are pills wearing a white cut ring. It is recognisable with the text removed.\n\nDensity is generous and phone-first. Sections alternate black, amber, white, black, amber, white, mist, black so the eye gets a rest between loud moments, and each section carries one big italic headline and one idea. Headlines shout in Rubik 900 italic capitals; everything else speaks quietly in Hanken Grotesk Light. The voice is the workshop's: direct, voseo, no adjectives where a material would do.\n\nThe system rejects the torn-paper look, hand-lettered script and yellow-with-blue palettes, and it rejects the generic row of equal cards under a headline (the product grid is deliberately uneven, one tall tile beside four others).",
+    "keyCharacteristics": [
+      "Black ground, white and amber sections, one chromatic color (amber) plus its deep sibling.",
+      "Stickers are drawn SVG objects with a thick white border and a soft drop shadow, never photographs or emoji.",
+      "Die-cut teeth as the section seam; lightning bolt as the single repeated mark.",
+      "Pills for actions, 22px tiles for content, no sharp rectangles except section bands.",
+      "Motion is one gesture: things get stuck on, lift on hover, and slide as tape."
+    ],
+    "rules": [
+      {
+        "name": "The Amber-Is-Never-Text-On-White Rule",
+        "body": "Amber on black is a headline highlight; amber on white is only ever a fill under black text. Contrast (AA) is the reason, and PRODUCT.md records it as a commitment.",
+        "section": "colors"
+      },
+      {
+        "name": "The Hard-Seam Rule",
+        "body": "Sections change color completely at a die-cut edge. No gradients between sections.",
+        "section": "colors"
+      },
+      {
+        "name": "The Two-Weights Rule",
+        "body": "Display is 900 (labels 800), body is 300. Nothing sits in between; emphasis inside body text steps up to 400 or 500, never to bold display.",
+        "section": "typography"
+      },
+      {
+        "name": "The Balance Rule",
+        "body": "Headings use text-wrap: balance and paragraphs text-wrap: pretty; headlines break by design, with a max-width in ch, not by accident.",
+        "section": "typography"
+      },
+      {
+        "name": "The Sticker-Not-Card Rule",
+        "body": "Only things that are stickers (buttons, chips, badges, swatches, SVG art) get a ring and an offset shadow. Tiles, bands and panels stay flat.",
+        "section": "elevation"
+      },
+      {
+        "name": "The Ring-Contrasts-The-Ground Rule",
+        "body": "The ring is white on dark or amber grounds and black on white ones.",
+        "section": "elevation"
+      }
+    ],
+    "dos": [
+      "**Do** put WhatsApp on every action: each button carries a prefilled message; the number lives in one config file.",
+      "**Do** alternate section grounds (hero black, tape amber, products white, order black, steps amber, finishes white, FAQ mist, closing black) and join them with the die-cut edge in the incoming section's color.",
+      "**Do** draw new products as SVG stickers with a white border and the (6px 10px 12px) drop shadow, tilted 4 to 12 degrees.",
+      "**Do** keep text on amber black, text on black white or Soft Silver (#BDBDBD), and secondary text on white Soft Graphite (#4A4A4A).",
+      "**Do** keep touch targets at 44px minimum and honor reduced motion by stopping the tape, the landing animation and the button transition.",
+      "**Do** set every headline in 900 italic uppercase with 0.95 line-height and a ch-based max-width."
+    ],
+    "donts": [
+      "**Don't** put amber text on white or mist.",
+      "**Don't** put rings or offset shadows on tiles, bands or panels; they belong to stickers.",
+      "**Don't** use hard (zero-blur) offset shadows; the shadow is soft.",
+      "**Don't** use torn-paper edges, script lettering or a blue companion to the amber.",
+      "**Don't** use photographs, stock imagery, invented reviews, figures or prices; show the product as drawn stickers and materials.",
+      "**Don't** line up identical cards in a row under a headline; vary tile size and tone.",
+      "**Don't** set body copy above weight 400 or display below 800."
+    ]
+  }
+}
